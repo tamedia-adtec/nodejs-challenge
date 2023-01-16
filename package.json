@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
+    "eslint": "^8.31.0",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.4"
+  },
+  "name": "<APP_NAME>",
+  "description": "Use this template when creating a new NodeJS project.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist",
+    "dev": "./node_modules/nodemon/bin/nodemon.js -e ts --exec \"npm start\"",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamedia-adtec/<APP_NAME>.git"
+  },
+  "author": "engineering@goldbach.com",
+  "license": "Owned by Goldbach neXT",
+  "bugs": {
+    "url": "https://github.com/tamedia-adtec/<APP_NAME>/issues"
+  },
+  "homepage": "https://github.com/tamedia-adtec/<APP_NAME>#readme"
+}
